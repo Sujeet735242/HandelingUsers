@@ -1,0 +1,92 @@
+{
+  "users": [
+    {
+      "id": "101",
+      "name": "Sujeet Kumar",
+      "username": "sujeet707012",
+      "email": "sujeet19328@gmail.com",
+      "password": "Sk@193285",
+      "mobile": "7352427614"
+    },
+    {
+      "id": "102",
+      "name": "Ayushi Raj",
+      "username": "ayushi8454520",
+      "email": "ayushi05@gmail.com",
+      "password": "AK6269652126@",
+      "mobile": "7070826565"
+    },
+    {
+      "id": "103",
+      "name": "Rohan Dayal",
+      "username": "rohand56695",
+      "email": "rohan350@gmail.com",
+      "password": "Rkdayal@022",
+      "mobile": "70893024573"
+    },
+    {
+      "id": "104",
+      "name": "Aakash Gupta",
+      "username": "aakash26260",
+      "email": "akash@gmail.com",
+      "password": "Ak6465+9#",
+      "mobile": "7801865662"
+    },
+    {
+      "id": "105",
+      "name": "Rekha Roy",
+      "username": "rekharoy66007",
+      "email": "rekharoy58746@gmail.com",
+      "password": "Rekha79565$",
+      "mobile": "9990872136"
+    },
+    {
+      "id": "106",
+      "name": "Mukesh Das",
+      "username": "mk2568600",
+      "email": "mk62360@gmail.com",
+      "password": "35424io!",
+      "mobile": "7885026410"
+    },
+    {
+      "id": "107",
+      "name": "Pratibha Anand",
+      "username": "pratibha483599",
+      "email": "pratibhaA@gmail.com",
+      "password": "Pkanand@",
+      "mobile": "9789851193"
+    },
+    {
+      "id": "108",
+      "name": "Prince Shah",
+      "username": "prince456499",
+      "email": "prince2005@gmail.com",
+      "password": "Pk65121@",
+      "mobile": "78965620660"
+    },
+    {
+      "id": "109",
+      "name": "Rajesh Singh",
+      "username": "rajesh687465",
+      "email": "rajesh684@gmail.com",
+      "password": "Singh",
+      "mobile": "98715406505"
+    },
+    {
+      "id": "110",
+      "name": "Tapas Das",
+      "username": "tapas65656",
+      "email": "Tk06653@gmail.com",
+      "password": "Tdas222222#",
+      "mobile": "7795652322"
+    },
+    {
+      "name": "Kamlesh",
+      "username": "kk5626",
+      "email": "kamlesh@gmail.com",
+      "password": "KKuhub%%%",
+      "mobile": "6203749266",
+      "id": "111"
+    }
+  ]
+}

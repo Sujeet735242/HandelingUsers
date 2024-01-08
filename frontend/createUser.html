@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create user!</title>
+    <script src="./operations.js"></script>
+    <link rel="stylesheet" href="./userStyles.css">
+</head>
+<body>
+    <div class="create_Upd_container">
+        <h2>Create a User</h2>
+        
+        <form onsubmit="createUser()">
+            <label for="cid">ID:</label><br>
+            <input type="number"id="cid" class="inp_box" placeholder="Enter ID"><br>
+
+            <label for="cname">Name:</label><br>
+            <input type="text" id="cname" class="inp_box" placeholder="Enter name"><br>
+
+            <label for="cusername">User Name:</label><br>
+            <input type="text" id="cusername" class="inp_box" placeholder="Create user name"><br>
+
+            <label for="cgmail">Email</label><br>
+            <input type="email" id="cgmail" class="inp_box" placeholder="Enter email"><br>
+
+            <label for="cpassword">Password:</label><br>
+            <input type="password" id="cpassword" class="inp_box" placeholder="Create password"><br>
+
+            <label for="cmobile">Mobile:</label><br>
+            <input type="number" id="cmobile" class="inp_box" min="0" placeholder="Enter mobile number"><br><br>
+            <input class="btn" type="submit"><br>
+            <a class="go_back" href="./mainPage.html">&lt;Go Back</a>
+        </form>
+    </div>
+</body>
+</html>

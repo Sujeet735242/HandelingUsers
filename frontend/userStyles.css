@@ -1,0 +1,105 @@
+/* Main Page */
+.main_page_container{
+    text-align: center;
+}
+
+.main_page_container h1{
+    margin-bottom: -15px;
+}
+.main_page_container h3{
+    color: rgb(168, 7, 7);
+    margin-bottom: 0px;
+}
+.main_page_container button{
+    padding: 10px;
+    color: blue;
+    background-color: white;
+    border-radius: 5px;
+    border-color: rgb(196, 217, 236);
+}
+.main_page_container>div{
+    margin-bottom: 10px;
+}
+
+.main_page_container>div>a>button{
+    margin: 10px;
+}
+.main_page_container button:hover{
+    background-color: gray;
+    color: white;
+}
+
+.main_page_container table{
+    border-style: solid;
+    border-color: gray;
+    border-collapse: collapse;
+    margin: auto;
+}
+.main_page_container th,td{
+    
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+
+}
+.main_page_container th{
+    background-color: aqua;
+}
+
+/* Create and update Page */
+.create_Upd_container{
+    
+    width: 350px;
+    margin: auto;
+    padding: 30px;
+    padding-left: 70px;
+    margin-top: 50px;
+    border-radius: 50px;
+    /* background-color: rgb(65, 167, 235); */
+    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.create_Upd_container h2{
+    text-align: center;
+    margin-top: -15px;
+    text-decoration: underline;
+    color: rgb(172, 19, 19);
+    margin-bottom: 5px;
+}
+
+.inp_box{
+    width: 300px;
+    height: 30px;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    color: rgb(56, 54, 54);
+    
+}
+
+.inp_box:hover{
+    background-color: rgba(128,128,128,0.2);
+    border-width: 1.5px;
+    border-width: 1px;
+}
+
+.btn{
+    width: 320px;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(46, 44, 44);
+    color: white;
+    border-radius: 5px;
+    
+}
+.btn:hover{
+    background-color: rgb(170, 163, 163);
+    border-width: 1px;
+}
+.go_back{
+    margin-top: 5px;
+    display: block;
+}
