@@ -55,8 +55,8 @@ async function updateUser()
             'Content-type': 'application/json; charset=UTF-8',
         },
     });
-    alert("You have successfully created !")
-    window.location.replace('./mainPage.html');
+    alert("You have successfully Updated ID - " + id);
+    window.location.href='./mainPage.html';
     
 }
 
