@@ -28,7 +28,7 @@ async function createUser()
             'Content-type': 'application/json; charset=UTF-8',
         },
     });
-    window.location.replace('./mainPage.html');
+    window.location.href='./index.html'
 }
 
 // Update a User
