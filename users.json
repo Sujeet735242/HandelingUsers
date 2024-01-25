@@ -79,6 +79,30 @@
       "password": "86454",
       "mobile": "956",
       "id": "110"
+    },
+    {
+      "id": "500",
+      "name": "raj",
+      "username": "raj4545",
+      "email": "raj@gmail.com",
+      "password": "646465",
+      "mobile": "6846846"
+    },
+    {
+      "id": "1",
+      "name": "Rekha Roy",
+      "username": "yfujh",
+      "email": "rekharoy58746@gmail.com",
+      "password": "658456",
+      "mobile": "4654"
+    },
+    {
+      "id": "800",
+      "name": "Sujeet Kumar",
+      "username": "sujeet707012",
+      "email": "sujeet19328@gmail.com",
+      "password": "+65",
+      "mobile": "46546"
     }
   ]
 }
