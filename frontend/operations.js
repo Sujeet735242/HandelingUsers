@@ -2,7 +2,7 @@
 async function createUser()
 {
     
-    let url='http://localhost:4500/users/';
+    let url='https://usersdata-c7uo.onrender.com/users/';
     
     let id=document.getElementById("cid").value;
     
@@ -11,7 +11,7 @@ async function createUser()
     let mygmail=document.getElementById("cgmail").value;
     let password=document.getElementById("cpassword").value;
     let mobile=document.getElementById("cmobile").value;
-    
+
     // Fetching data 
     await fetch(url,{
         
@@ -34,7 +34,7 @@ async function createUser()
 // Update a User
 async function updateUser()
 {
-    let url='http://localhost:4500/users/';
+    let url='https://usersdata-c7uo.onrender.com/users/';
     let id=document.getElementById("myid").value;
     let name=document.getElementById("myname").value;
     let userName=document.getElementById("myusername").value;
@@ -63,7 +63,7 @@ async function updateUser()
 // Delete a User
 async function deleteUser(id) {
     if (confirm("Are you sure?")) {
-        let url = 'http://localhost:4500/users/';
+        let url = 'https://usersdata-c7uo.onrender.com/users/';
         try {
             await fetch(url + id, {
                 method: 'DELETE',
@@ -82,7 +82,7 @@ async function deleteUser(id) {
 async function searchUser()
 {
     let id=parseInt(prompt("Please enter ID number to search !"))
-    let url='http://localhost:4500/users/';
+    let url='https://usersdata-c7uo.onrender.com/users/';
     let dataProm=await (await fetch(url+id)).json()
     let result=''
     for(key in dataProm)

@@ -3,7 +3,7 @@
 var tableData="";
 async function showAllUsers()
 {
-    let url='http://localhost:4500/users/';
+    let url='https://usersdata-c7uo.onrender.com/users/';
     let users_API=await fetch(url);
     let data=await users_API.json();
 
