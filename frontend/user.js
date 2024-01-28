@@ -27,7 +27,7 @@ async function showAllUsers()
                     <td>${data[i].password}</td>
                     <td>${data[i].mobile}</td>
                     <td><button onclick="deleteUser(${data[i].id})">Delete</button></td>
-                    <td><a href="./update.html"><button>Update</button></a></td>
+                    <td><a href="./frontend/update.html"><button>Update</button></a></td>
                     <tr>`
     }
     document.getElementById("users_details").innerHTML=tableData;
